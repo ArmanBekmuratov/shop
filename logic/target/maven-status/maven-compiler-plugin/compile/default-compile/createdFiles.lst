@@ -1,0 +1,5 @@
+kz\arman\ejb\OrdersManagerBean.class
+kz\arman\ejb\ProductsManagerBean.class
+kz\arman\domain\Order.class
+kz\arman\domain\ProductInOrder.class
+kz\arman\domain\Product.class

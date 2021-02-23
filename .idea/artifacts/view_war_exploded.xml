@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="view:war exploded">
+    <output-path>$PROJECT_DIR$/view/target/shop</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>view</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="view" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.1" />
+          <element id="archive" name="logic-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="logic" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/view/target/shop/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="view/web/Web" />
+    </root>
+  </artifact>
+</component>

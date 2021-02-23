@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="logic:ejb">
+    <output-path>$PROJECT_DIR$/logic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>logic</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="logic-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="logic:ejb exploded" />
+    </root>
+  </artifact>
+</component>
